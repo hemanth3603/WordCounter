@@ -16,12 +16,13 @@ const WordCounter = () => {
         }
     }
     return (
+        
         <div class="container bg-light " style={{ borderRadius: '15px' ,width:'1000px'}}>
             <h1>Enter Your Paragraph</h1>
             <div className="input-group mb-4">
                 <textarea className="form-control" aria-label="With textarea" rows={8} value={text} onInput={onChangeHandler} ></textarea>
             </div>
-            <div className="container ">
+            <div className="container-fluid">
                 <h2 class="text-secondary">Word Count:{words()}</h2>
             </div>
         </div>

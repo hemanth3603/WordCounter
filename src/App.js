@@ -1,11 +1,12 @@
 import Header from "./components/Header.js";
 import WordCounter from "./components/Wordcounter.js";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import "./App.css"
 function App() {
   return (
-    <div className="App">
+    <div >
       <Header />
-      <div className="container mt-4">
+      <div className="container-fluid mt-4">
         <WordCounter />
       </div>
     </div>
